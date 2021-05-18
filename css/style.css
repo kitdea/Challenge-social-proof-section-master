@@ -92,7 +92,7 @@ body {
   
   .fm-container__box {
     display: grid;
-    grid-template-columns: 1fr 40% 1fr 60%;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
   }
 }
