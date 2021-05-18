@@ -92,8 +92,7 @@ body {
   
   .fm-container__box {
     display: grid;
-    grid-template-columns: 1fr 40% 1fr 60% 1fr;
+    grid-template-columns: 1fr 40% 1fr 60%;
+    grid-template-rows: auto;
   }
 }
-
-
