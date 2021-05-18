@@ -81,10 +81,13 @@ body {
 }
 
 @media(min-width: 750px) {
+  .fm-container {
+    margin: auto;
+  }
   .fm-container__box {
     width: 100%;
     max-width: 1400px;
-    
+    margin: 1rem;
   }
 }
 
