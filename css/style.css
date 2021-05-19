@@ -34,6 +34,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.fm-header__title p {
+  color: hsl(300, 43%, 22%);
+}
+
 .fm-star__box {
   padding: 1rem;
   text-align: center;
@@ -115,5 +119,20 @@ body {
 
   .fm-box__first {
     margin: 1rem;
+  }
+
+  .fm-header__title {
+    padding: 2rem;
+  }
+
+  .fm-header__title h2 {
+    font-size: 4rem;
+    text-align: left;
+    font-weight: 700;
+  }
+
+  .fm-header__title p {
+    text-align: left;
+    padding-right: 4rem;
   }
 }
