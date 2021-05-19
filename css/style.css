@@ -148,7 +148,6 @@ body {
     display: flex;
     align-items: center;
     text-align: left;
-    /* max-width: 450px; */
     padding: 1rem 3rem 1rem 2rem;
   }
 
@@ -156,8 +155,6 @@ body {
     margin-top: 8px;
     margin-right: 1rem;
   }
-
-  
 }
 
 @media(min-width: 1080px) {
