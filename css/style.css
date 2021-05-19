@@ -30,7 +30,9 @@ body {
 }
 
 .fm-header__title h2 {
+  font-size: calc(1rem + 1.9vw);
   color: hsl(300, 43%, 22%);
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
@@ -112,6 +114,7 @@ body {
 
   .fm-header__stars {
     grid-area: middle;
+    padding: 2rem;
   }
 
   .fm-container__box2 {
@@ -120,6 +123,7 @@ body {
 
   .fm-container__box2 {
     display: flex;
+    padding: 1rem;
   }
 
   .fm-box__first {
@@ -131,7 +135,7 @@ body {
   }
 
   .fm-header__title h2 {
-    font-size: 4rem;
+    /* font-size: 4rem; */
     text-align: left;
     font-weight: 700;
   }
@@ -140,4 +144,6 @@ body {
     text-align: left;
     padding-right: 4rem;
   }
+
+  
 }
