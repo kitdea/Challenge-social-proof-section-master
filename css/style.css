@@ -94,11 +94,15 @@ body {
     display: grid;
     grid-template-columns: 500px 500px;
     grid-template-rows: auto;
-    grid-template-areas: "top top" "bottom bottom";
+    grid-template-areas: "top middle" "bottom bottom";
   }
 
-  .fm-header__title, .fm-header__stars {
+  .fm-header__title {
     grid-area: top;
+  }
+
+  .fm-header__stars {
+    grid-area: middle;
   }
 
   .fm-container__box2 {
