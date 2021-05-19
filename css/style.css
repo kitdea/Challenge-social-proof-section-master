@@ -93,6 +93,15 @@ body {
   .fm-container__box {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "top top" "bottom bottom";
+  }
+
+  .fm-header__title, .fm-header__stars {
+    grid-area: top;
+  }
+
+  .fm-container__box2 {
+    grid-area: bottom;
   }
 }
