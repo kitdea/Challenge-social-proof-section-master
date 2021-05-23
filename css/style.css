@@ -182,10 +182,19 @@ body {
   }
 
   .mx-star-box {
-    margin-right: 8rem;        /* This is a specific margin for the star box only */
+    margin-right: 8rem;         /* This is a specific margin for the star box only */
+    width: 100%;
+    max-width: 431px;
   }
 
   .mx-star-box_1 {
-    margin-right: 2rem;        /* This is a specific margin for the star box only */
+    margin-right: 4rem;        /* This is a specific margin for the star box only */
+    width: 100%;
+    max-width: 431px;
+  }
+  .mx-star-box_2 {
+           /* This is a specific margin for the star box only */
+    width: 100%;
+    max-width: 431px;
   }
 }
