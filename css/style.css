@@ -9,6 +9,12 @@ body {
   font-family: 'Spartan', sans-serif;
   font-weight: 400;
   height: 90vh;
+  background: url(/images/bg-pattern-top-desktop.svg),
+              url(/images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: left,
+                       right;
+  background-size: cover;
 }
 
 @media(min-width: 750px) {
@@ -122,6 +128,7 @@ body {
 
   .fm-container__box2 {
     display: flex;
+    align-items: flex-end;
     padding: 1rem;
   }
 
@@ -154,6 +161,14 @@ body {
   .stars {
     margin-top: 8px;
     margin-right: 1rem;
+  }
+
+  .box_01 {
+    margin-bottom: 4rem;
+  }
+
+  .box_02 {
+    margin-bottom: 2rem;
   }
 }
 
